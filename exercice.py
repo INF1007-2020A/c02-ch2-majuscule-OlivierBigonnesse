@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
+    distance_
     for lettre in mot:
         # TODO completer la fonction ici
         lettre = ord(lettre) - 32
