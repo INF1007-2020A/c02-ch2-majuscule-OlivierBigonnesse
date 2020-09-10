@@ -6,8 +6,8 @@ def majuscule(mot):
     for lettre in mot:
         # TODO completer la fonction ici
         if ord(lettre) >= 97 and ord(lettre) <= 122
-            lettre = ord(lettre) - distance_minuscule_majuscule
-            resultat += chr(lettre)
+        lettre = ord(lettre) - distance_minuscule_majuscule
+        resultat += chr(lettre)
     return resultat
 
 
