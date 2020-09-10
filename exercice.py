@@ -8,7 +8,7 @@ def majuscule(mot):
         if ord(lettre) >= 97 & ord(lettre) <= 122
             lettre = ord(lettre) - distance_minuscule_majuscule
         resultat += chr(lettre)
-        return resultat
+    return resultat
 
 
 if __name__ == '__main__':
