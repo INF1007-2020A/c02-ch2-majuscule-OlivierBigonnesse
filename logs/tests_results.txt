@@ -6,9 +6,9 @@ ERROR: test_upper_case_names (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, self.words))
-  File "/home/runner/work/c02-ch2-majuscule-OlivierBigonnesse/c02-ch2-majuscule-OlivierBigonnesse/exercice.py", line 6, in majuscule
-    lettre -= 23
-TypeError: unsupported operand type(s) for -=: 'str' and 'int'
+  File "/home/runner/work/c02-ch2-majuscule-OlivierBigonnesse/c02-ch2-majuscule-OlivierBigonnesse/exercice.py", line 8, in majuscule
+    resultat += lettre
+TypeError: must be str, not int
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.001s
