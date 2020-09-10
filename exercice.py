@@ -3,8 +3,8 @@
 def majuscule(mot):
     resultat = ''
     for lettre in mot:
-        lettre -= 32
-        
+        # TODO completer la fonction ici
+        lettre
         resultat += lettre
     return resultat
 
